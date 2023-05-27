@@ -6090,6 +6090,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: auto; }
 
 .row {
+  padding-top: 48px;
   display: flex;
   flex-wrap: wrap;
   margin-right: -10px;
@@ -6652,6 +6653,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .table, .content table {
   width: 100%;
+  text-align: center;
   margin-bottom: 1rem;
   color: #212529; }
   .table th, .content table th,
@@ -7279,12 +7281,17 @@ p {
 
 .header {
   color: #c51331;
-  background-color: #e0e0e0;
+  background-color: rgba(224, 224, 224, 0.5);
+  backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0 10px 0; }
+  padding: 10px 0 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999; }
   .header .container {
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -7609,7 +7616,7 @@ p {
   line-height: 1.1;
   font-family: "Roboto", Arial, sans-serif, -apple-system;
   letter-spacing: -0.2px;
-  font-weight: 100;
+  font-weight: 900;
   margin-bottom: 20px; }
   @media (min-width: 768px) {
     .title {
@@ -7691,7 +7698,8 @@ p {
     font-weight: 300;
     letter-spacing: -0.01em;
     font-family: "Roboto", Arial, sans-serif, -apple-system;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    scroll-padding-top: 10px; }
   .content h3 {
     font-size: 1.6rem;
     line-height: 1.4;

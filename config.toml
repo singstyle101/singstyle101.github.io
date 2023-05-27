@@ -1,4 +1,4 @@
-baseURL = "www.example.com"
+baseURL = "https://singstyle101.github.io"
 languageCode = "en-us"
 title = "SingStyle101"
 themesDir = "themes"
@@ -23,23 +23,23 @@ summaryLength = 30
     weight = 1
 [[menu.main]]
     name = "Paper"
-    url = "/#paper"
+    url = "/#ppr"
     weight = 2
 [[menu.main]]
     name = "Distribution"
-    url = "/#distribution"
+    url = "/#dist"
     weight = 3
 [[menu.main]]
     name = "Examples"
-    url = "/#examples"
+    url = "/#exp"
     weight = 4
 [[menu.main]]
     name = "Annotations"
-    url = "/#annotations"
+    url = "/#anno"
     weight = 5
 [[menu.main]]
     name = "Statistics"
-    url = "/#statistics"
+    url = "/#stat"
     weight = 6
 
 [params]
@@ -65,3 +65,35 @@ summaryLength = 30
       mobile = "/singing.svg"
       standard  = "/singing.svg"
 
+# Markdown 渲染器
+### for unknown reasons, I have to paste the following code here to enable inserted audio.
+### maybe the default rendering fashion in hugo doesn't support embedding audio.
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = false
+        [markup.goldmark.parser]
+            attribute = true
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+        [markup.goldmark.renderer]
+            hardWraps = false
+            unsafe = true
+            xHTML = false
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = true

@@ -26,6 +26,7 @@
 
 @if $enable-grid-classes {
   .row {
+    padding-top: 48px;
     @include make-row();
   }
 

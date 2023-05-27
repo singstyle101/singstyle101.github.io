@@ -4,6 +4,7 @@
 
 .table {
   width: 100%;
+  text-align: center;
   margin-bottom: $spacer;
   color: $table-color;
   background-color: $table-bg; // Reset for nesting within parents with `background-color`.
