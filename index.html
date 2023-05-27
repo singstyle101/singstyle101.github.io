@@ -22,7 +22,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.43923b85feb3184c1bee92558dbd7e91091c1917e6b87927620dac5c32ba5b14.css">
+  <link rel="stylesheet" href="/css/style.min.c712dc9011544ba2079549560e49d8b685e5aec286905281c95b38fc270731a1.css">
   
 
   
@@ -41,31 +41,31 @@
     </li>
     
     <li class="menu-item-paper">
-      <a href="/#paper">
+      <a href="/#ppr">
         <span>Paper</span>
       </a>
     </li>
     
     <li class="menu-item-distribution">
-      <a href="/#distribution">
+      <a href="/#dist">
         <span>Distribution</span>
       </a>
     </li>
     
     <li class="menu-item-examples">
-      <a href="/#examples">
+      <a href="/#exp">
         <span>Examples</span>
       </a>
     </li>
     
     <li class="menu-item-annotations">
-      <a href="/#annotations">
+      <a href="/#anno">
         <span>Annotations</span>
       </a>
     </li>
     
     <li class="menu-item-statistics">
-      <a href="/#statistics">
+      <a href="/#stat">
         <span>Statistics</span>
       </a>
     </li>
@@ -92,31 +92,31 @@
     </li>
     
     <li class="menu-item-paper">
-      <a href="/#paper">
+      <a href="/#ppr">
         <span>Paper</span>
       </a>
     </li>
     
     <li class="menu-item-distribution">
-      <a href="/#distribution">
+      <a href="/#dist">
         <span>Distribution</span>
       </a>
     </li>
     
     <li class="menu-item-examples">
-      <a href="/#examples">
+      <a href="/#exp">
         <span>Examples</span>
       </a>
     </li>
     
     <li class="menu-item-annotations">
-      <a href="/#annotations">
+      <a href="/#anno">
         <span>Annotations</span>
       </a>
     </li>
     
     <li class="menu-item-statistics">
-      <a href="/#statistics">
+      <a href="/#stat">
         <span>Statistics</span>
       </a>
     </li>
@@ -155,22 +155,20 @@
 <p>It demonstrates style transfer in both performance and timbre levels. 77 songs contain at least two distinct singing styles performed by the same singer.</p>
 <p>It includes proper annotations and extracted features. We manually segmented voices into phrases, aligned the phonemes of lyrics with Performance MIDI files and music score notes, and extracted acoustic features such as Mel-Spectrogram, F0 contour, and amplitude curves.</p>
 <p>It applies to different MIR tasks such as SVS, SVC, Singing Transcription, Score Following, Expressive Performance, Lyrics Detection, and Singing Style Transfer.</p>
-<p><img src="gallery_1.jpg" width=500 style="margin:0; border:0;" />
+<p><a id="ppr"></a>
+<img src="gallery_1.jpg" width=500 style="margin:0; border:0;" />
 <img src="gallery_3.jpg" width=500 style="margin:0; border:0;" /></p>
-<p><a id="#paper"></a>
-<br><br><br><br><br></p>
-<h2 id="paper"><strong>Paper</strong></h2>
-<p><a id="#distribution"></a>
-<a href="https://www.bing.com">SingStyle101: A Multilingual Singing Dataset With Style Transfer</a>
+<p><br><br></p>
+<h2 id="a-iddista-paper"><a id="dist"></a> <strong>Paper</strong></h2>
+<p><a href="https://www.bing.com">SingStyle101: A Multilingual Singing Dataset With Style Transfer</a>
 <br><br></p>
 <h2 id="distribution"><strong>Distribution</strong></h2>
-<p>To ensure the confidentiality of the singers' personal information, the <em><strong>SingStyle101</strong></em> dataset will not be made public.<br>
+<p><a id="exp"></a> To ensure the confidentiality of the singers' personal information, the <em><strong>SingStyle101</strong></em> dataset will not be made public.<br>
 However, to promote the adoption of the dataset, we will allow researchers to access and download the data free by application for only non-commercial, non-profit research purposes. We will review the applications accordingly to prevent potential cases of misuse and malicious spread, for which we ask for your understanding.<br>
 <a href="https://www.bing.com">Application shortcut</a>
 <br><br></p>
 <h2 id="examples"><strong>Examples</strong></h2>
-<p><a id="#examples"></a>
-We provide you here some showcases of the recordings in <em><strong>SingStyle101</strong></em>, demostrating the wide span of the dataset.
+<p>We provide you here some showcases of the recordings in <em><strong>SingStyle101</strong></em>, demostrating the wide span of the dataset.
 <br><br></p>
 <h3 id="multilingual-data">Multilingual data</h3>
 <ul>
@@ -331,9 +329,8 @@ We provide you here some showcases of the recordings in <em><strong>SingStyle101
     </tr>
     </table>
 </div>
-<br><br>
+<p><a id="anno"></a><br><br><br><br></p>
 <h2 id="annotations"><strong>Annotations</strong></h2>
-<p><a id="#annotations"></a></p>
 <ul>
 <li><strong>'item_name'</strong>: a string, name of the item listed in the dataset.</li>
 <li><strong>'file_category'</strong>: a list indicating train, valid, test set. For example, ['test', 'valid'].</li>
@@ -393,15 +390,28 @@ We provide you here some showcases of the recordings in <em><strong>SingStyle101
 <h3 id="positional-features-all-derived-in-data-loader-not-stored-in-data-file">Positional features (all derived in data loader, not stored in data file)</h3>
 <ul>
 <li><strong>'pos'</strong> (used in acoustic_control_timing): 1, 2, ..., phoneme_length</li>
-<li><strong>'phrase_pos'</strong>: 1, 2, ..., mel_length, derived in the data loader.</li>
+<li><a id="stat"></a> <strong>'phrase_pos'</strong>: 1, 2, ..., mel_length, derived in the data loader.</li>
 <li><strong>'note_pos'</strong>: 1-D integer array, same length with mel-spectrograms ('len'), indicating the frame position in current phoneme, derived in the data loader.</li>
 </ul>
 <p><br><br></p>
 <h2 id="statistics"><strong>Statistics</strong></h2>
-<p><a id="#statistics"></a>
-<img src="song_style.png" width=500 style="margin:0; border:0;" />
-<br>
-<img src="style_distribution.png" width=500 style="margin:0; border:0;" /></p>
+<h3 id="repertoire-language-and-styles">Repertoire, language and styles</h3>
+<p><em><strong>SingStyle101</strong></em> comprises <strong>101</strong> songs, of which <strong>77</strong> have at least two different versions performed in distinct styles by the same singer, resulting in a total of <strong>193</strong> song versions. The dataset encompasses three languages: <strong>English (322 minutes), Chinese Mandarin (359 minutes), and Italian (88 minutes)</strong>.<br>
+The figure below illustrates the number of song versions for each language.</p>
+<p style="text-align: center;">
+    <img src="song_style.png" width=500 style="margin:0 auto;"/>
+</p>
+<p>The figure below presents the styles of the original songs and all style demonstrations. We consolidated several sub-genres into seven broader styles to streamline the pie chart. For instance, Country, Western folk, Chinese pop, and other pop styles were combined into a single pop genre. Likewise, the Rock category contains Soft Rock, Hard Rock, Alternative Rock, etc.</p>
+<p style="text-align: center;">
+<img src="style_distribution.png" width=500 style="margin:0; border:0;" />
+</p>
+<h3 id="singers">Singers</h3>
+<p>Our <strong>eight singers</strong> have diverse vocal ranges, singing styles, and vocal techniques. They are aged <strong>20 to 63</strong>, and all have received formal musical training for <strong>more than six years</strong>. Six of them are graduates or current students in the voice major at music conservatories. &quot;Male1&quot; is a native American English speaker, and all the others are Chinese. &quot;Female1&quot; has lived in the US for more than five years and received formal English singing training at a music academy.</p>
+<p style="text-align: center;">
+<img src="singers.png" width=500 style="margin:0 auto;"/>
+</p>
+<p>In the table above, the vocal range is the used range in the dataset.<br>
+P: Pop, C: Children, R: Rock, O: Opera, F: Chinese Traditional Folk, M: Musical, J: Jazz.</p>
 
           
         </div>
