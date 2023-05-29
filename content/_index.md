@@ -39,57 +39,57 @@ We provide you here some showcases of the recordings in ***SingStyle101***, demo
 ### Multilingual data
 - Chinese  
     ​<audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multilingual/Chinese-输了你赢了世界又如何.mp3">
+        <source id="wav" src="examples_multilingual/Chinese-输了你赢了世界又如何.wav">
     </audio>&nbsp;
     ​<audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multilingual/Chinese-悬日.mp3">
+        <source id="wav" src="examples_multilingual/Chinese-悬日.wav">
     </audio>
 - English  
     ​<audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multilingual/English-FatherAndSon.mp3">
+        <source id="wav" src="examples_multilingual/English-FatherAndSon.wav">
     </audio>&nbsp;
     ​<audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multilingual/English-YouAreTheReason.mp3">
+        <source id="wav" src="examples_multilingual/English-YouAreTheReason.wav">
     </audio>
 - Italian  
     ​<audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multilingual/Italian-1.mp3">
+        <source id="wav" src="examples_multilingual/Italian-1.wav">
     </audio>&nbsp;
     ​<audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multilingual/Italian-2.mp3">
+        <source id="wav" src="examples_multilingual/Italian-2.wav">
     </audio>
 
 ### Multi-style data
 - Children  
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multistyle/Children.mp3">
+        <source id="wav" src="examples_multistyle/Children.wav">
     </audio>
 - Chinese Folk  
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multistyle/ChineseFolk.mp3">
+        <source id="wav" src="examples_multistyle/ChineseFolk.wav">
     </audio>
 - Jazz  
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multistyle/Jazz.mp3">
+        <source id="wav" src="examples_multistyle/Jazz.wav">
     </audio>
 - Musical  
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multistyle/Musical.mp3">
+        <source id="wav" src="examples_multistyle/Musical.wav">
     </audio>
 - Opera  
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multistyle/Opera.mp3">
+        <source id="wav" src="examples_multistyle/Opera.wav">
     </audio>
 - Pop  
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_multistyle/Pop.mp3">
+        <source id="wav" src="examples_multistyle/Pop.wav">
     </audio>
 - Rock  
     <audio id="audio" controls="" preload="none">
         <source id="mp3" src="examples_multistyle/Rock.mp3">
     </audio>  
 
-### Style transfer parallel data
+### Style transfer examples
 
 SingStyle101 contains many performances where a single singer performs in multiple styles, offering the potential to abstract styles from other information (singer identity, melodies) which is held constant. In the multi-style recordings, singers were asked to exaggerate differences, which should help to learn features that characterize different styles.
 
@@ -98,31 +98,31 @@ SingStyle101 contains many performances where a single singer performs in multip
 <td>
     Pop (Normal)<br>
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/SomeoneLikeYou-流行正常.mp3">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行正常.wav">
     </audio><br>
     Pop (Bel Canto-Like)<br>
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/SomeoneLikeYou-流行偏美声.mp3">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行偏美声.wav">
     </audio><br>
 </td>
 <td>
     Pop (Exaggerated)<br>
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/SomeoneLikeYou-流行夸张.mp3">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行夸张.wav">
     </audio><br>
     Pop (Happy)<br>
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/SomeoneLikeYou-流行快乐.mp3">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行快乐.wav">
     </audio><br>
 </td>
 <td>
     Pop (Sweet)<br>
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/SomeoneLikeYou-流行甜美.mp3">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行甜美.wav">
     </audio><br>
     Bel Canto Opera<br>
     <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/SomeoneLikeYou-美声.mp3">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-美声.wav">
     </audio><br>
 </td>
 </table>
@@ -132,13 +132,13 @@ SingStyle101 contains many performances where a single singer performs in multip
     <td>
         Bel Canto Opera<br>
         <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/IDreamedADream-美声.mp3">
+            <source id="wav" src="examples_transfer/IDreamedADream-美声.wav">
         </audio>
     </td>
     <td>
         Musical<br>
         <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/IDreamedADream-音乐剧.mp3">
+            <source id="wav" src="examples_transfer/IDreamedADream-音乐剧.wav">
         </audio><br>
     </td>
 </table>
@@ -148,40 +148,18 @@ SingStyle101 contains many performances where a single singer performs in multip
     <td>
         Children<br>
         <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/IKissedAGirl-Children.mp3">
+            <source id="wav" src="examples_transfer/IKissedAGirl-Children.wav">
         </audio>
     </td>
     <td>
         Pop<br>
         <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/IKissedAGirl-Pop.mp3">
+            <source id="wav" src="examples_transfer/IKissedAGirl-Pop.wav">
         </audio><br>
     </td>
 </table>
 
 - Song 4
-<table border="0">
-<td>
-    Jazz<br>
-    <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/盛夏的果实-jazz.mp3">
-    </audio><br>
-</td>
-<td>
-    Pop<br>
-    <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/盛夏的果实-pop.mp3">
-    </audio><br>
-</td>
-<td>
-    Teresa Tengs' Style<br>
-    <audio id="audio" controls="" preload="none">
-        <source id="mp3" src="examples_transfer/盛夏的果实-邓丽君.mp3">
-    </audio><br>
-</td>
-</table>
-
-- Song 5
 <table>
     <td>
         Pop<br>
@@ -211,50 +189,136 @@ SingStyle101 contains many performances where a single singer performs in multip
     </td>
 </table>
 
+- Song 5
+<table>
+    <td>
+        Pop (Normal)<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/茉莉花-流行正常.mp3">
+        </audio><br>
+        Pop (Happy)<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/茉莉花-流行欢快.mp3">
+        </audio><br>
+    </td>
+    <td>
+        Chinese Folk (Key 1)<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/茉莉花-民族调1.mp3">
+        </audio><br>
+        Chinese Folk (Key 2)<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/茉莉花-民族调2.mp3">
+        </audio><br>
+    </td>
+    <td>
+        Bel Canto Opera<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/茉莉花-美声.mp3">
+        </audio><br>
+    </td>
+</table>
+
 - Song 6
 <table>
     <td>
         Pop<br>
         <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/记住乡愁-流行.mp3">
+            <source id="mp3" src="examples_transfer/青春舞曲-流行.mp3">
+        </audio><br>
+        Pop (Exaggerated)<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/青春舞曲-流行夸张.mp3">
         </audio><br>
     </td>
     <td>
+        Pop (Bel Canto-Like)<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/青春舞曲-流行偏美声.mp3">
+        </audio><br>
         Bel Canto Opera<br>
         <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/记住乡愁-美声.mp3">
-        </audio>
+            <source id="mp3" src="examples_transfer/青春舞曲-美声.mp3">
+        </audio><br>
+    </td>
+    <td>
+        Pop (Chinese Folk-Like)<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/青春舞曲-流行偏民族.mp3">
+        </audio><br>
+        Chinese Folk<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="mp3" src="examples_transfer/青春舞曲-民族.mp3">
+        </audio><br>
     </td>
 </table>
 
 - Song 7
-<table>
-    <td>
-        Jian Li's Style<br>
-        <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/贝加尔湖畔-李健.mp3">
-        </audio><br>
-    </td>
-    <td>
-        JJ Lin's Style<br>
-        <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/贝加尔湖畔-林俊杰.mp3">
-        </audio><br>
-    </td>
+<table border="0">
+<td>
+    Jazz<br>
+    <audio id="audio" controls="" preload="none">
+        <source id="mp3" src="examples_transfer/盛夏的果实-jazz.mp3">
+    </audio><br>
+</td>
+<td>
+    Pop<br>
+    <audio id="audio" controls="" preload="none">
+        <source id="mp3" src="examples_transfer/盛夏的果实-pop.mp3">
+    </audio><br>
+</td>
+<td>
+    Teresa Tengs' Style<br>
+    <audio id="audio" controls="" preload="none">
+        <source id="mp3" src="examples_transfer/盛夏的果实-邓丽君.mp3">
+    </audio><br>
+</td>
 </table>
 
 - Song 8
 <table>
     <td>
-        Chinese Folk<br>
+        Pop<br>
         <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/声声慢-民族.mp3">
+            <source id="wav" src="examples_transfer/记住乡愁-流行.wav">
         </audio><br>
     </td>
     <td>
         Bel Canto Opera<br>
         <audio id="audio" controls="" preload="none">
-            <source id="mp3" src="examples_transfer/声声慢-美声.mp3">
+            <source id="wav" src="examples_transfer/记住乡愁-美声.wav">
+        </audio>
+    </td>
+</table>
+
+- Song 9
+<table>
+    <td>
+        Jian Li's Style<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="wav" src="examples_transfer/贝加尔湖畔-李健.wav">
+        </audio><br>
+    </td>
+    <td>
+        JJ Lin's Style<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="wav" src="examples_transfer/贝加尔湖畔-林俊杰.wav">
+        </audio><br>
+    </td>
+</table>
+
+- Song 10
+<table>
+    <td>
+        Chinese Folk<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="wav" src="examples_transfer/声声慢-民族.wav">
+        </audio><br>
+    </td>
+    <td>
+        Bel Canto Opera<br>
+        <audio id="audio" controls="" preload="none">
+            <source id="wav" src="examples_transfer/声声慢-美声.wav">
         </audio><br>
     </td>
 </table>
