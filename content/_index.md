@@ -1,18 +1,21 @@
 ---
 title: 'SingStyle101'
 draft: false
+align: justify
 ---
+
+<div style="text-align: justify;">
 
 ## A Multilingual Singing Dataset with Style Transfer
 ***SingStyle101*** is a large and high-quality singing dataset. It contains 101 songs performed by eight professional singers, spanning 12.8 hours of clean monophonic vocal recordings in studio quality.
 
-It is a diverse dataset with creative singing. It covers English, Chinese, and Italian songs and incorporates various singing styles, such as bel canto opera, Chinese folk, pop, jazz, and children. Some performances are creative improvisations based on the original score. 
+- It is a diverse dataset with creative singing. It covers English, Chinese, and Italian songs and incorporates various singing styles, such as bel canto opera, Chinese folk, pop, jazz, and children. Some performances are creative improvisations based on the original score. 
 
-It demonstrates style transfer in both performance and timbre levels. 77 songs contain at least two distinct singing styles performed by the same singer.
+- It demonstrates style transfer in both performance and timbre levels. 77 songs contain at least two distinct singing styles performed by the same singer.
 
-It includes proper annotations and extracted features. We manually segmented voices into phrases, aligned the phonemes of lyrics with Performance MIDI files and music score notes, and extracted acoustic features such as Mel-Spectrogram, F0 contour, and amplitude curves. 
+- It includes proper annotations and extracted features. We manually segmented voices into phrases, aligned the phonemes of lyrics with Performance MIDI files and music score notes, and extracted acoustic features such as Mel-Spectrogram, F0 contour, and amplitude curves. 
 
-It applies to different MIR tasks such as SVS, SVC, Singing Transcription, Score Following, Expressive Performance, Lyrics Detection, and Singing Style Transfer.
+- It applies to different MIR tasks such as Singing Voice Synthesis, Singing Voice Conversion, Singing Transcription, Score Following, Expressive Performance, Lyrics Detection, and Singing Style Transfer.
 
 <a id="ppr"></a>
 <img src="gallery_1.jpg" width=500 style="margin:0; border:0;" />
@@ -26,8 +29,9 @@ It applies to different MIR tasks such as SVS, SVC, Singing Transcription, Score
 
 ## **Distribution**
 
-<a id="exp"></a> To ensure the confidentiality of the singers' personal information, the ***SingStyle101*** dataset will not be made public.  
-However, to promote the adoption of the dataset, we will allow researchers to access and download the data free by application for only non-commercial, non-profit research purposes. We will review the applications accordingly to prevent potential cases of misuse and malicious spread, for which we ask for your understanding.  
+<a id="exp"></a> 
+Researchers can access and download the dataset through a formal application process exclusively for non-commercial and non-profit research purposes. We will review the applications accordingly to prevent potential misuse and malicious spread. We kindly request your understanding and cooperation in this regard.
+
 [Application shortcut](https://www.bing.com)
 <br><br>
 
@@ -412,3 +416,5 @@ Our **eight singers** have diverse vocal ranges, singing styles, and vocal techn
 
 In the table above, the vocal range is the used range in the dataset.  
 P: Pop, C: Children, R: Rock, O: Opera, F: Chinese Traditional Folk, M: Musical, J: Jazz.
+
+</div>

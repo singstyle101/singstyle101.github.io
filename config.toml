@@ -97,3 +97,5 @@ summaryLength = 30
         startLevel = 2
         endLevel = 6
         ordered = true
+
+    enableJustify = true
