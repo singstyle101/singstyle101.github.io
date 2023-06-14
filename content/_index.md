@@ -104,72 +104,6 @@ We provide you here some showcases of the recordings in ***SingStyle101***, demo
 SingStyle101 contains many performances where a single singer performs in multiple styles, offering the potential to abstract styles from other information (singer identity, melodies) which is held constant. In the multi-style recordings, singers were asked to exaggerate differences, which should help to learn features that characterize different styles.
 
 - Song 1
-<table border="0">
-<td>
-    Pop (Normal)<br>
-    <audio id="audio" controls controlsList="nodownload" preload="none">
-        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行正常.wav">
-    </audio><br>
-    Pop (Bel Canto-Like)<br>
-    <audio id="audio" controls controlsList="nodownload" preload="none">
-        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行偏美声.wav">
-    </audio><br>
-</td>
-<td>
-    Pop (Exaggerated)<br>
-    <audio id="audio" controls controlsList="nodownload" preload="none">
-        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行夸张.wav">
-    </audio><br>
-    Pop (Happy)<br>
-    <audio id="audio" controls controlsList="nodownload" preload="none">
-        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行快乐.wav">
-    </audio><br>
-</td>
-<td>
-    Pop (Sweet)<br>
-    <audio id="audio" controls controlsList="nodownload" preload="none">
-        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行甜美.wav">
-    </audio><br>
-    Bel Canto Opera<br>
-    <audio id="audio" controls controlsList="nodownload" preload="none">
-        <source id="wav" src="examples_transfer/SomeoneLikeYou-美声.wav">
-    </audio><br>
-</td>
-</table>
-
-- Song 2
-<table>
-    <td>
-        Bel Canto Opera<br>
-        <audio id="audio" controls controlsList="nodownload" preload="none">
-            <source id="wav" src="examples_transfer/IDreamedADream-美声.wav">
-        </audio>
-    </td>
-    <td>
-        Musical<br>
-        <audio id="audio" controls controlsList="nodownload" preload="none">
-            <source id="wav" src="examples_transfer/IDreamedADream-音乐剧.wav">
-        </audio><br>
-    </td>
-</table>
-
-- Song 3
-<table>
-    <td>
-        Children<br>
-        <audio id="audio" controls controlsList="nodownload" preload="none">
-            <source id="wav" src="examples_transfer/IKissedAGirl-Children.wav">
-        </audio>
-    </td>
-    <td>
-        Pop<br>
-        <audio id="audio" controls controlsList="nodownload" preload="none">
-            <source id="wav" src="examples_transfer/IKissedAGirl-Pop.wav">
-        </audio><br>
-    </td>
-</table>
-
-- Song 4
 <table>
     <td>
         Pop<br>
@@ -199,7 +133,7 @@ SingStyle101 contains many performances where a single singer performs in multip
     </td>
 </table>
 
-- Song 5
+- Song 2
 <table>
     <td>
         Pop (Normal)<br>
@@ -229,7 +163,7 @@ SingStyle101 contains many performances where a single singer performs in multip
     </td>
 </table>
 
-- Song 6
+- Song 3
 <table>
     <td>
         Pop<br>
@@ -263,7 +197,7 @@ SingStyle101 contains many performances where a single singer performs in multip
     </td>
 </table>
 
-- Song 7
+- Song 4
 <table border="0">
 <td>
     Jazz<br>
@@ -285,7 +219,7 @@ SingStyle101 contains many performances where a single singer performs in multip
 </td>
 </table>
 
-- Song 8
+- Song 5
 <table>
     <td>
         Pop<br>
@@ -301,23 +235,23 @@ SingStyle101 contains many performances where a single singer performs in multip
     </td>
 </table>
 
-- Song 9
+- Song 6
 <table>
     <td>
         Jian Li's Style<br>
         <audio id="audio" controls controlsList="nodownload" preload="none">
-            <source id="wav" src="examples_transfer/贝加尔湖畔-李健.wav">
+            <source id="wav" src="examples_transfer/贝加尔湖畔-New-李健.wav">
         </audio><br>
     </td>
     <td>
         JJ Lin's Style<br>
         <audio id="audio" controls controlsList="nodownload" preload="none">
-            <source id="wav" src="examples_transfer/贝加尔湖畔-林俊杰.wav">
+            <source id="wav" src="examples_transfer/贝加尔湖畔-New-林俊杰.wav">
         </audio><br>
     </td>
 </table>
 
-- Song 10
+- Song 7
 <table>
     <td>
         Chinese Folk<br>
@@ -329,6 +263,72 @@ SingStyle101 contains many performances where a single singer performs in multip
         Bel Canto Opera<br>
         <audio id="audio" controls controlsList="nodownload" preload="none">
             <source id="wav" src="examples_transfer/声声慢-美声.wav">
+        </audio><br>
+    </td>
+</table>
+
+- Song 8
+<table border="0">
+<td>
+    Pop (Normal)<br>
+    <audio id="audio" controls controlsList="nodownload" preload="none">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行正常.wav">
+    </audio><br>
+    Pop (Bel Canto-Like)<br>
+    <audio id="audio" controls controlsList="nodownload" preload="none">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行偏美声.wav">
+    </audio><br>
+</td>
+<td>
+    Pop (Exaggerated)<br>
+    <audio id="audio" controls controlsList="nodownload" preload="none">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行夸张.wav">
+    </audio><br>
+    Pop (Happy)<br>
+    <audio id="audio" controls controlsList="nodownload" preload="none">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行快乐.wav">
+    </audio><br>
+</td>
+<td>
+    Pop (Sweet)<br>
+    <audio id="audio" controls controlsList="nodownload" preload="none">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-流行甜美.wav">
+    </audio><br>
+    Bel Canto Opera<br>
+    <audio id="audio" controls controlsList="nodownload" preload="none">
+        <source id="wav" src="examples_transfer/SomeoneLikeYou-美声.wav">
+    </audio><br>
+</td>
+</table>
+
+- Song 9
+<table>
+    <td>
+        Bel Canto Opera<br>
+        <audio id="audio" controls controlsList="nodownload" preload="none">
+            <source id="wav" src="examples_transfer/IDreamedADream-美声.wav">
+        </audio>
+    </td>
+    <td>
+        Musical<br>
+        <audio id="audio" controls controlsList="nodownload" preload="none">
+            <source id="wav" src="examples_transfer/IDreamedADream-音乐剧.wav">
+        </audio><br>
+    </td>
+</table>
+
+- Song 10
+<table>
+    <td>
+        Children<br>
+        <audio id="audio" controls controlsList="nodownload" preload="none">
+            <source id="wav" src="examples_transfer/IKissedAGirl-New-Child.wav">
+        </audio>
+    </td>
+    <td>
+        Pop<br>
+        <audio id="audio" controls controlsList="nodownload" preload="none">
+            <source id="wav" src="examples_transfer/IKissedAGirl-New-Pop.wav">
         </audio><br>
     </td>
 </table>
