@@ -1,6 +1,6 @@
-baseURL = "https://singstyle101.github.io"
+baseURL = "https://singstyle111.github.io"
 languageCode = "en-us"
-title = "SingStyle101"
+title = "SingStyle111"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 

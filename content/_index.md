@@ -1,5 +1,5 @@
 ---
-title: 'SingStyle101'
+title: 'SingStyle111'
 draft: false
 align: justify
 ---
@@ -7,11 +7,11 @@ align: justify
 <div style="text-align: justify;">
 
 ## A Multilingual Singing Dataset with Style Transfer
-***SingStyle101*** is a large and high-quality singing dataset. It contains 101 songs performed by eight professional singers, spanning 12.8 hours of clean monophonic vocal recordings in studio quality.
+***SingStyle111*** is a large and high-quality singing dataset. It contains 111 songs performed by eight professional singers, spanning 12.8 hours of clean monophonic vocal recordings in studio quality.
 
 - It is a diverse dataset with creative singing. It covers English, Chinese, and Italian songs and incorporates various singing styles, such as bel canto opera, Chinese folk, pop, jazz, and children. Some performances are creative improvisations based on the original score. 
 
-- It demonstrates style transfer in both performance and timbre levels. 77 songs contain at least two distinct singing styles performed by the same singer.
+- It demonstrates style transfer in both performance and timbre levels. 80 songs contain at least two distinct singing styles performed by the same singer.
 
 - It includes proper annotations and extracted features. We manually segmented voices into phrases, aligned the phonemes of lyrics with Performance MIDI files and music score notes, and extracted acoustic features such as Mel-Spectrogram, F0 contour, and amplitude curves. 
 
@@ -24,7 +24,7 @@ align: justify
 <br><br>
 
 ## <a id="dist"></a> **Paper**
-[SingStyle101: A Multilingual Singing Dataset With Style Transfer](https://www.bing.com)
+[SingStyle111: A Multilingual Singing Dataset With Style Transfer](https://www.bing.com)
 <br><br>
 
 ## **Distribution**
@@ -37,7 +37,7 @@ Researchers can access and download the dataset through a formal application pro
 
 
 ## **Examples**
-We provide you here some showcases of the recordings in ***SingStyle101***, demostrating the wide span of the dataset.
+We provide you here some showcases of the recordings in ***SingStyle111***, demostrating the wide span of the dataset.
 <br><br>
 
 ### Multilingual data
@@ -101,7 +101,7 @@ We provide you here some showcases of the recordings in ***SingStyle101***, demo
 
 ### Style transfer examples
 
-SingStyle101 contains many performances where a single singer performs in multiple styles, offering the potential to abstract styles from other information (singer identity, melodies) which is held constant. In the multi-style recordings, singers were asked to exaggerate differences, which should help to learn features that characterize different styles.
+SingStyle111 contains many performances where a single singer performs in multiple styles, offering the potential to abstract styles from other information (singer identity, melodies) which is held constant. In the multi-style recordings, singers were asked to exaggerate differences, which should help to learn features that characterize different styles.
 
 - Song 1
 <table>
@@ -400,7 +400,7 @@ SingStyle101 contains many performances where a single singer performs in multip
 
 ## **Statistics**
 ### Repertoire, language and styles
-***SingStyle101*** comprises **101** songs, of which **77** have at least two different versions performed in distinct styles by the same singer, resulting in a total of **193** song versions. The dataset encompasses three languages: **English (322 minutes), Chinese Mandarin (359 minutes), and Italian (88 minutes)**.  
+***SingStyle111*** comprises **111** songs, of which **80** have at least two different versions performed in distinct styles by the same singer, resulting in a total of **224** song versions. The dataset encompasses three languages: **English (372 minutes), Chinese Mandarin (307 minutes), and Italian (88 minutes)**.  
 The figure below illustrates the number of song versions for each language.
 
 <p style="text-align: center;">
